@@ -1,0 +1,50 @@
+﻿<Window x:Class="WPFminiProject_with_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFminiProject_with_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="Anim">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(RangeBase.Value)" Storyboard.TargetName="pb">
+                <EasingDoubleKeyFrame KeyTime="0:0:15" Value="15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:15.1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+    </Window.Triggers>
+    <Grid x:Name="grid">
+        <ProgressBar x:Name="pb" HorizontalAlignment="Left" Height="26.233" Margin="212.884,382.767,0,0" VerticalAlignment="Top" Width="569.116" Maximum="15" Background="White"/>
+        <Grid HorizontalAlignment="Left" Height="186.695" Margin="0,232.305,0,0" VerticalAlignment="Top" Width="199.812" Background="#FFC5C5C5">
+            <TextBlock HorizontalAlignment="Left" Height="23.463" Margin="10,10,0,0" TextWrapping="Wrap" Text="Генератор случайных чисел:" VerticalAlignment="Top" Width="189.812" FontSize="14"/>
+            <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="26.404" Margin="108.121,65.705,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="54.359"/>
+            <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="26.404" Margin="10,65.705,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="54.359"/>
+            <TextBlock HorizontalAlignment="Left" Height="27.242" Margin="96.897,38.463,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65.583"><Run Text="Число "/><Run Text="до:"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="27.242" Margin="10,38.463,0,0" TextWrapping="Wrap" Text="Число от:" VerticalAlignment="Top" Width="65.583"/>
+            <Button x:Name="but" Content="ОК" HorizontalAlignment="Left" Height="28.251" Margin="20.215,148.444,0,0" VerticalAlignment="Top" Width="131.166" Background="#FF8D8D8D" Click="but_Click"/>
+            <TextBox x:Name="tb3" HorizontalAlignment="Left" Height="26.404" Margin="10,117.04,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54.359"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="232.305" VerticalAlignment="Top" Width="792" Background="#FF8D8D8D" RenderTransformOrigin="0.698,-0.633">
+            <TextBlock HorizontalAlignment="Left" Height="17.152" Margin="10,329.166,0,-114.013" TextWrapping="Wrap" Text="Случайное число:" VerticalAlignment="Top" Width="151.471"/>
+            <TextBlock HorizontalAlignment="Left" Height="23.251" Margin="10,10,0,0" TextWrapping="Wrap" Text="Генератор случайных паролей:" VerticalAlignment="Top" Width="223.198" FontSize="14"/>
+            <CheckBox x:Name="c2" Content="из прописных" HorizontalAlignment="Left" Height="20.511" Margin="10,63.475,0,0" VerticalAlignment="Top" Width="177.704"/>
+            <CheckBox x:Name="c1" Content="из строчных" HorizontalAlignment="Left" Height="20.511" Margin="10,38.251,0,0" VerticalAlignment="Top" Width="177.704"/>
+            <CheckBox x:Name="c3" Content="из смеси строчных и прописных букв" HorizontalAlignment="Left" Height="20.511" Margin="10,89.031,0,0" VerticalAlignment="Top" Width="230.17"/>
+            <CheckBox x:Name="c5" Content="из смеси цифр и букв" HorizontalAlignment="Left" Height="20.511" Margin="10,140.399,0,0" VerticalAlignment="Top" Width="177.704"/>
+            <CheckBox x:Name="c4" Content="из цифр" HorizontalAlignment="Left" Height="20.511" Margin="10,114.888,0,0" VerticalAlignment="Top" Width="177.704"/>
+            <Button x:Name="but2" Content="ОК" HorizontalAlignment="Left" Height="28.251" Margin="255.305,14.156,0,0" VerticalAlignment="Top" Width="131.166" Background="#FFC5C5C5" Click="but2_Click"/>
+            <TextBox x:Name="sym1" HorizontalAlignment="Left" Height="38.341" Margin="10,183.964,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="18.054" Margin="10,165.91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187.794"><Run Text="Случайный пароль"/><Run Text=":"/></TextBlock>
+            <TextBox x:Name="sym" HorizontalAlignment="Left" Height="31.61" Margin="255.305,134.3,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="131.166"/>
+            <TextBlock HorizontalAlignment="Left" Height="18.838" Margin="241.18,116.561,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157.399"><Run Text="Число символов в пароле"/><Run Text=":"/></TextBlock>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Height="23.251" Margin="212.884,242.305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333.004" FontSize="14"><Run Text="Г"/><Run Text="енератор 6-значного кода:"/></TextBlock>
+        <TextBlock x:Name="tbl1" HorizontalAlignment="Left" Height="21.323" Margin="212.884,356.444,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226.053"><Run Text="Д"/><Run Text="о обновления осталось 15 секунд"/></TextBlock>
+        <TextBlock x:Name="tbl" HorizontalAlignment="Left" Height="36.368" Margin="212.884,315.076,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206.883" FontSize="24" Background="#FFE6E6E6"/>
+        <Button x:Name="Six" Content="Старт" HorizontalAlignment="Left" Height="32.377" Margin="212.884,270.556,0,0" VerticalAlignment="Top" Width="157.399" FontSize="14" Click="Button_Click"/>
+
+    </Grid>
+</Window>

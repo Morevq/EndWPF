@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\bin\Debug\WPFminiProject-with-WPF.exe.config
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\bin\Debug\WPFminiProject-with-WPF.exe
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\bin\Debug\WPFminiProject-with-WPF.pdb
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\App.g.cs
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF_MarkupCompile.cache
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF_MarkupCompile.lref
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF.g.resources
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject_with_WPF.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF.csproj.GenerateResource.cache
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF.exe
+C:\Users\User\Documents\Visual Studio 2019\Student Ambassadors Academy\WPFminiProject\WPFminiProject-with-WPF\WPFminiProject-with-WPF\obj\Debug\WPFminiProject-with-WPF.pdb
