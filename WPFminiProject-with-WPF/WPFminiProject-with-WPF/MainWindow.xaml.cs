@@ -61,7 +61,7 @@ namespace WPFminiProject_with_WPF
             try
             {
                 int n = Convert.ToInt32(sym.Text); //Длинна пароля
-                if (c1.IsChecked == true && c2.IsChecked == false && c3.IsChecked == false && c4.IsChecked == false && c5.IsChecked == false && n >= 0)
+                if (с1.IsChecked == true && с2.IsChecked == false && с3.IsChecked == false && с4.IsChecked == false && с5.IsChecked == false && n >= 0)
                 {
                     char[] arr = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
                     Random rnd = new Random();                   //Создание объекта для генерации чисел
@@ -74,7 +74,7 @@ namespace WPFminiProject_with_WPF
                     }
                     sym1.Text = Convert.ToString(s);
                 }
-                else if (c1.IsChecked == false && c2.IsChecked == true && c3.IsChecked == false && c4.IsChecked == false && c5.IsChecked == false && n >= 0)
+                else if (с1.IsChecked == false && с2.IsChecked == true && с3.IsChecked == false && с4.IsChecked == false && с5.IsChecked == false && n >= 0)
                 {
                     char[] arr = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
                     Random rnd = new Random();                   //Создание объекта для генерации чисел
@@ -87,7 +87,7 @@ namespace WPFminiProject_with_WPF
                     }
                     sym1.Text = Convert.ToString(s);
                 }
-                else if (c1.IsChecked == false && c2.IsChecked == false && c3.IsChecked == true && c4.IsChecked == false && c5.IsChecked == false && n >= 0)
+                else if (с1.IsChecked == false && с2.IsChecked == false && с3.IsChecked == true && с4.IsChecked == false && с5.IsChecked == false && n >= 0)
                 {
                     char[] arr = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
                     Random rnd = new Random();                   //Создание объекта для генерации чисел
@@ -100,7 +100,7 @@ namespace WPFminiProject_with_WPF
                     }
                     sym1.Text = Convert.ToString(s);
                 }
-                else if (c1.IsChecked == false && c2.IsChecked == false && c3.IsChecked == false && c4.IsChecked == true && c5.IsChecked == false && n >= 0)
+                else if (с1.IsChecked == false && с2.IsChecked == false && с3.IsChecked == false && с4.IsChecked == true && с5.IsChecked == false && n >= 0)
                 {
                     Random rnd = new Random();                   //Создание объекта для генерации чисел
                     int value = rnd.Next(0, 10);                 //Получить случайное число (в диапазоне от 0 до 10), не включая 10
@@ -112,7 +112,7 @@ namespace WPFminiProject_with_WPF
                     }
                     sym1.Text = Convert.ToString(s);
                 }
-                else if (c1.IsChecked == false && c2.IsChecked == false && c3.IsChecked == false && c4.IsChecked == false && c5.IsChecked == true && n >= 0)
+                else if (с1.IsChecked == false && с2.IsChecked == false && с3.IsChecked == false && с4.IsChecked == false && с5.IsChecked == true && n >= 0)
                 {
                     char[] arr = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
                     Random rnd = new Random();                   //Создание объекта для генерации чисел

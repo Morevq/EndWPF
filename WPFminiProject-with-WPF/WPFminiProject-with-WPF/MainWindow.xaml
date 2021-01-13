@@ -30,16 +30,16 @@
         <Grid HorizontalAlignment="Left" Height="232.305" VerticalAlignment="Top" Width="792" Background="#FF8D8D8D" RenderTransformOrigin="0.698,-0.633">
             <TextBlock HorizontalAlignment="Left" Height="17.152" Margin="10,329.166,0,-114.013" TextWrapping="Wrap" Text="Случайное число:" VerticalAlignment="Top" Width="151.471"/>
             <TextBlock HorizontalAlignment="Left" Height="23.251" Margin="10,10,0,0" TextWrapping="Wrap" Text="Генератор случайных паролей:" VerticalAlignment="Top" Width="223.198" FontSize="14"/>
-            <CheckBox x:Name="c2" Content="из прописных" HorizontalAlignment="Left" Height="20.511" Margin="10,63.475,0,0" VerticalAlignment="Top" Width="177.704"/>
-            <CheckBox x:Name="c1" Content="из строчных" HorizontalAlignment="Left" Height="20.511" Margin="10,38.251,0,0" VerticalAlignment="Top" Width="177.704"/>
-            <CheckBox x:Name="c3" Content="из смеси строчных и прописных букв" HorizontalAlignment="Left" Height="20.511" Margin="10,89.031,0,0" VerticalAlignment="Top" Width="230.17"/>
-            <CheckBox x:Name="c5" Content="из смеси цифр и букв" HorizontalAlignment="Left" Height="20.511" Margin="10,140.399,0,0" VerticalAlignment="Top" Width="177.704"/>
-            <CheckBox x:Name="c4" Content="из цифр" HorizontalAlignment="Left" Height="20.511" Margin="10,114.888,0,0" VerticalAlignment="Top" Width="177.704"/>
             <Button x:Name="but2" Content="ОК" HorizontalAlignment="Left" Height="28.251" Margin="255.305,14.156,0,0" VerticalAlignment="Top" Width="131.166" Background="#FFC5C5C5" Click="but2_Click"/>
             <TextBox x:Name="sym1" HorizontalAlignment="Left" Height="38.341" Margin="10,183.964,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" FontSize="16"/>
             <TextBlock HorizontalAlignment="Left" Height="18.054" Margin="10,165.91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187.794"><Run Text="Случайный пароль"/><Run Text=":"/></TextBlock>
             <TextBox x:Name="sym" HorizontalAlignment="Left" Height="31.61" Margin="255.305,134.3,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="131.166"/>
             <TextBlock HorizontalAlignment="Left" Height="18.838" Margin="241.18,116.561,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157.399"><Run Text="Число символов в пароле"/><Run Text=":"/></TextBlock>
+            <RadioButton x:Name="с1" Content="из строчных" HorizontalAlignment="Left" Height="25.511" Margin="10,38.251,0,0" VerticalAlignment="Top" Width="123.094"/>
+            <RadioButton x:Name="с2" Content="из прописных" HorizontalAlignment="Left" Height="25.511" Margin="10,63.52,0,0" VerticalAlignment="Top" Width="123.094"/>
+            <RadioButton x:Name="с5" Content="из смеси цифр и букв" HorizontalAlignment="Left" Height="25.511" Margin="10,140.399,0,0" VerticalAlignment="Top" Width="151.471"/>
+            <RadioButton x:Name="с4" Content="из цифр" HorizontalAlignment="Left" Height="25.511" Margin="10,114.888,0,0" VerticalAlignment="Top" Width="123.094"/>
+            <RadioButton x:Name="с3" Content="из смеси строчных и прописных букв" HorizontalAlignment="Left" Height="25.511" Margin="10,89.031,0,0" VerticalAlignment="Top" Width="234.081"/>
         </Grid>
         <TextBlock HorizontalAlignment="Left" Height="23.251" Margin="212.884,242.305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333.004" FontSize="14"><Run Text="Г"/><Run Text="енератор 6-значного кода:"/></TextBlock>
         <TextBlock x:Name="tbl1" HorizontalAlignment="Left" Height="21.323" Margin="212.884,356.444,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226.053"><Run Text="Д"/><Run Text="о обновления осталось 15 секунд"/></TextBlock>
