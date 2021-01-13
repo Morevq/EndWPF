@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFminiProject_with_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Window.Resources>
         <Storyboard x:Key="Anim">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(RangeBase.Value)" Storyboard.TargetName="pb">
